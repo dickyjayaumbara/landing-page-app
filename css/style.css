@@ -1,0 +1,110 @@
+body {
+  font-family: "Montserrat", sans-serif;
+}
+
+p,
+footer {
+  font-family: "Source Sans Pro", sans-serif;
+}
+
+.navbar {
+  z-index: 2;
+}
+
+/* custom font size */
+.fs-7 {
+  font-size: 0.875rem;
+}
+.fs-rem-1-5 {
+  font-size: 1.5rem;
+}
+.fs-rem-3 {
+  font-size: 3rem;
+}
+.fs-rem-5 {
+  font-size: 5rem;
+}
+
+/* custom letter spacing */
+.lts-1 {
+  letter-spacing: 0.3rem;
+}
+
+/* custom text color */
+.color-one {
+  color: #d0434b;
+}
+
+/* custom bg color */
+.bg-white-50 {
+  background: #ffffff80;
+}
+
+.bg-footer{
+  background: #524c55;
+}
+
+.navbar-collapse {
+  background: transparent;
+}
+
+.carousel {
+  height: 28rem;
+  color: white;
+
+  /* fallback for old browsers */
+  background: #eb813c;
+
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: -webkit-linear-gradient(
+    to bottom,
+    rgba(235, 129, 60, 1),
+    rgba(230, 42, 75, 1)
+  );
+
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: linear-gradient(
+    to bottom,
+    rgba(235, 129, 60, 1),
+    rgba(230, 42, 75, 1)
+  );
+}
+
+.carousel-title {
+  font-size: 1.8rem;
+  letter-spacing: 0.1rem;
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+  opacity: 1;
+}
+
+.extra-feature-rounded {
+  width: 3rem;
+  height: 3rem;
+  border-radius: 100%;
+  border: 2px solid white;
+  background: transparent;
+}
+
+@media (min-width: 992px) {
+  .carousel {
+    height: calc(100vh - 100px);
+  }
+
+  .carousel-title {
+    font-size: 5rem;
+    letter-spacing: 0.3rem;
+  }
+
+  .carousel-sub-title {
+    font-size: 1.5rem;
+  }
+}
+
+@media (max-width: 992px) {
+  .navbar-collapse {
+    background: #212529 !important;
+  }
+}
